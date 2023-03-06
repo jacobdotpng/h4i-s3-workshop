@@ -5,12 +5,12 @@
 
 version: 2
 updates:
-  - package-ecosystem: "yarn"
+  - package-ecosystem: "npm"
     directory: "/backend/" # Location of package manifests
     schedule:
       interval: "weekly"
       
-  - package-ecosystem: "yarn"
+  - package-ecosystem: "npm"
     directory: "/frontend/" # Location of package manifests
     schedule:
       interval: "weekly"
