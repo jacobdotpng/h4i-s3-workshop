@@ -18,3 +18,4 @@ jobs:
           baseBranch: "main"
           openPR: true
           allowSkipped: false
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
