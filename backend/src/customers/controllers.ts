@@ -2,6 +2,7 @@ import mongoose from "mongoose";
 
 import { CustomerModel, Customer } from "./models";
 
+
 /**
  * Finds all customer docs in DB
  * @returns promise with all customer docs or error
